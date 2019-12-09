@@ -20,7 +20,7 @@ public class Login extends AppCompatActivity {
     public void login(View v){
         String user=usuario.getText().toString();
         String pass=clave.getText().toString();
-        if(user.equals("user")&&pass.equals("123")){
+        if(user.equals("estudiante2019")&&pass.equals("uisrael2019")){
 
             Intent abrir_registro=new Intent(Login.this,Registro.class);
             abrir_registro.putExtra("datoEnviado",user);
